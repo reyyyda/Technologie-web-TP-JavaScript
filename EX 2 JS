@@ -1,0 +1,19 @@
+function lancerQuiz() {
+let nombreSecret = Math.floor(Math.random() * 10) + 1;
+let tentative;
+let essais = 0;
+
+do {
+    tentative = parseInt(prompt("Devinez un nombre entre 1 et 10 :"));
+    essais++;
+
+    if (tentative < nombreSecret) {
+        alert("C'est plus grand !");
+    } else if (tentative > nombreSecret) {
+        alert("C'est plus petit !");
+    } else {
+        alert("Bravo ! Trouvé en " + essais + " essais.");
+    }
+
+} while (tentative !== nombreSecret);
+  }
