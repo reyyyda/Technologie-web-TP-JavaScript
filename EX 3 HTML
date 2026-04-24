@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz interactif</title>
+</head>
+<body>
+<h2>Exercice 3</h2>
+<button onclick="lancerQuiz()">Démarrer le Quiz</button>
+
+<script language="javascript" src="1.js"></script>
+
+</body>
+</html>
