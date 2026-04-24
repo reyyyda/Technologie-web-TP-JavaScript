@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jeu de devinette</title>
+</head>
+<body>
+<h2>Exercice 2</h2>
+<button onclick="lancerQuiz()">Démarrer le Quiz</button>
+
+<script language="javascript" src="1.js"></script>
+
+</body>
+</html>
