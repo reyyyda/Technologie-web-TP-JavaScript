@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Opérations sur deux nombres</title>
+</head>
+<body>
+<h2>Exercice 1</h2>
+<button onclick="lancerQuiz()">Démarrer le Quiz</button>
+
+<script language="javascript" src="1.js"></script>
+
+</body>
+</html>
